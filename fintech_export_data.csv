@@ -1,0 +1,94 @@
+﻿Workspace;Power BI;Tabelas;Tabelas Secundárias;Origem
+Credit;Curto Prazo;donus_kitchen_credit.visao_cp_atual;donus_serving.dataset_ambev_invoices;Nãoacheionotebook
+Credit;Curto Prazo;donus_kitchen_credit.visao_cp_atual;donus_kitchen_operations.ambev_setores_censitarios_estrato_social_renda;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.cp_total;donus_serving.dataset_ambev_invoices;Nãoacheionotebook
+Credit;Curto Prazo;donus_kitchen_credit.cp_total;donus_kitchen_operations.ambev_setores_censitarios_estrato_social_renda;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.clientes_inadimplentes;donus_kitchen_credit.cp_total;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.tabela_thomas;donus_serving.dataset_ambev_invoices;Nãoacheionotebook
+Credit;Curto Prazo;donus_kitchen_credit.elegibilidade;donus_kitchen.beesbank_ambev_invoice;Bifrost(KafkaBeesBankqueextraidoPromax)
+Credit;Curto Prazo;donus_kitchen_credit.carteira_ativa_historica_cp_contrato;donus_kitchen_credit.cp_total;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.carteira_ativa_historica_cp;donus_kitchen_credit.cp_total;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.carteira_ativa_historica_cp_diaria;donus_kitchen_credit.cp_total;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.lgd_cp;donus_kitchen_credit.carteira_ativa_historica_cp_contrato;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.rolagem_cp;donus_kitchen_credit.visao_cp_atual;#N/D
+Credit;Curto Prazo;donus_kitchen_credit.saldo_cp;donus_kitchen_credit.carteira_ativa_historica_cp_contrato;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.kpi_produtos;donus_serving.dataset_ambev_invoices;Nãoacheionotebook
+Credit;CP - Visão Produtos;donus_kitchen_credit.kpi_produtos;donus_kitchen.de_para_perfil_nge;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.nps_credito;donus_kitchen_credit.cp_total;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.nps_credito;donus_kitchen_cx.nps_cluster;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.motivos_cr_credito;donus_kitchen_cx.motivos_de_chamados;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.cr_credito;donus_kitchen_cx.contact_rate;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.vw_churn_curtoprazo;donus_kitchen_credit.carteira_ativa_historica_cp_contrato;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.vw_churn_curtoprazo;donus_kitchen_credit.vw_clientes_curtoprazo;#N/D
+Credit;CP - Visão Produtos;donus_kitchen_credit.vw_clientes_curtoprazo;donus_kitchen_credit.visao_cp_atual;#N/D
+Credit;Risco Sacado;donus_kitchen_credit.risco_sacado;donus_kitchen.monkey_api_operations;#N/D
+Credit;Risco Sacado;donus_kitchen_credit.risco_sacado_suppliers;donus_kitchen.monkey_api_sellers;#N/D
+Credit;CD;donus_kitchen_credit.cd;donus_kitchen.btg_carteira;APIPartnerBTG
+Credit;CD;donus_kitchen_credit.cd;donus_kitchen.credit_creditslipreceipt;BeesBankMongo-InformaseainvoicefoiparaavaliaçàodoFIDIC
+Credit;Cobrança LP;donus_kitchen_credit.base_cobranca_lp_dash;donus_kitchen_credit.mailing_fidc;#N/D
+Credit;Colchão de acordo;donus_kitchen_credit.colchao_acordo_cp;donus_kitchen_credit.visao_cp_atual;#N/D
+Credit;Colchão de acordo;donus_kitchen_credit.colchao_acordo_cp;donus_kitchen.credit_creditslipreceipt;BeesBankMongo-InformaseainvoicefoiparaavaliaçàodoFIDIC
+Credit;Colchão de acordo;donus_kitchen_credit.colchao_acordo_cp;donus_kitchen.btg_carteira;APIPartnerBTG
+Credit;-;donus_kitchen_credit.mailing_fidc;donus_kitchen_credit.mailing_lp_fidc;#N/D
+Credit;-;donus_kitchen_credit.mailing_fidc;donus_kitchen_credit.mailing_cp_fidc;#N/D
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;donus_relational.fidc_carteira_lp_parcela;#N/D
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;iris_kitchen.postgres_cliente_mais;PostgreAMBEV,porémapartirde2023seráenviadoviadatashare
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;donus_kitchen_data.cadastros_bees_3;#N/D
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;donus_kitchen_data.cadastros_bees_4;#N/D
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;donus_kitchen_data.match_ambev_edv;TimeBeesBank
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;-;donus_kitchen_credit.mailing_lp_fidc;donus_serving.donus_customer;tabelasmapeadas
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;donus_relational.fidc_carteira_lp_parcela;#N/D
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;iris_kitchen.postgres_cliente_mais;PostgreAMBEV,porémapartirde2023seráenviadoviadatashare
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;donus_kitchen_data.cadastros_bees_3;#N/D
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;donus_kitchen_data.cadastros_bees_4;#N/D
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;donus_kitchen_data.match_ambev_edv;TimeBeesBank
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;-;donus_kitchen_credit.mailing_cp_fidc;donus_serving.donus_customer;tabelasmapeadas
+Credit;OKR Q4;donus_kitchen_credit.okr_q2_2022;donus_kitchen_credit.cp_total;#N/D
+Credit;OKR Q4;donus_kitchen_credit.metasq2_cr_baddebt;manual input;#N/D
+Credit;OKR Q4;donus_kitchen_credit.risco_sacado;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;OKR Q4;donus_kitchen_credit.risco_ambev_historico;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;OKR Q4;donus_kitchen_credit.risco_ambev_historico;donus_kitchen_credit.risco_all_poc_risk_score_document;#N/D
+Credit;OKR Q4;donus_kitchen_credit.lp_over;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;OKR Q4;donus_kitchen_credit.lp_over;donus_kitchen_credit.carteira_lp;#N/D
+Credit;OKR Q4;donus_kitchen_credit.lp_over_renegotiated;donus_kitchen_credit.lp_over;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp;donus_relational.fidc_carteira_lp_parcela;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp;donus_serving.fidc_carteira_lp_accrual;abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp;donus_credit_kitchen_ds.mesano_csv;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp;donus_relational.fidc_carteira_lp_due_value;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp;donus_kitchen_finance.vw_balance_accounts_saldo_all;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.lp_over;;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.lp_over_renegotiated;;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.fidc_lp_rolagem;donus_kitchen_credit.fidc_lp_parcela_with_reneg_date;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.fidc_lp_lgd;donus_kitchen_credit.fidc_lp_lgd_first_month;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.fidc_lp_lgd;donus_kitchen_credit.fidc_lp_lgd_first_month_aggregate;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.fidc_lp_lgd;donus_kitchen_credit.fidc_lp_lgd_first_month_contract;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.fidc_lp_lgd;donus_kitchen_credit.fidc_lp_lgd_first_month_contract_fixed;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.fidc_lp_recuperacao;donus_kitchen_credit.carteira_lp;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;donus_relational.fidc_carteira_lp_parcela;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;iris_kitchen.ambev_clientes;IrisDatashare:abfss://iguazudatalakeraw@gblstorageiguazuprod001.dfs.core.windows.net/irisraw/clientes/Clientes/
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;iris_kitchen.ambev_estruturadevendas;IrisDatashareabfss://iguazudatalakeraw@gblstorageiguazuprod001.dfs.core.windows.net/irisraw/estruturadevendas/EstruturaVendas/
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;ambev_credit_kitchen_ds.donus_lt_final_scores;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;ambev_credit_kitchen_ds.all_poc_risk_score_v2;GeradopelotimedeDataScientist
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;iris_kitchen.postgres_cliente_mais;PostgreAMBEV,porémapartirde2023seráenviadoviadatashare
+Credit;Longo Prazo;donus_kitchen_credit.dados_lp_contrato;donus_kitchen_operations.ambev_setores_censitarios_estrato_social_renda;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp_out_22;donus_kitchen_credit.manual_input_carteira_lp_out_22;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp_out_22;donus_kitchen_credit.manual_input_carteira_lp_22_liq_nov_22;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.carteira_lp_out_22;donus_kitchen_credit.dados_lp_contrato;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.lp_carteira_receita;donus_kitchen_credit.carteira_lp;#N/D
+Credit;Longo Prazo;donus_kitchen_credit.over_mob_aux;donus_kitchen_credit.lp_over;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_kitchen_data.TTV_Ambev;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_kitchen_credit.projecao_ttv;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_kitchen_credit.api_mova;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_kitchen.mova_motor;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_kitchen.mova_cotacao;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_funil;donus_kitchen_data.match_ambev_edv;TimeBeesBank
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.dados_lp_contrato;;#N/D
+Credit;Longo Prazo Visão Produto;donus_kitchen_credit.lp_returning_customers;donus_relational.fidc_carteira_lp;Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder}
+Credit;Longo Prazo Visão Produto;donus_kitchen.mova_cotacao;;#N/D
+Credit;;donus_kitchen_credit.depara_unb;manual input;#N/D
+Credit;;donus_kitchen_credit.manual_cond_pgto;manual input;#N/D
