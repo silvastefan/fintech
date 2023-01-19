@@ -1,0 +1,76 @@
+aba,origem,panel_name,schema_tabelas,schema_tabelas_secundarias,status,tabelas,tabelas_secundarias,workspace
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen,null,false,mova_cotacao,null,Credit
+silver_power_bi_credito,Nãoacheionotebook,Curto Prazo,donus_kitchen_credit,donus_serving,false,visao_cp_atual,dataset_ambev_invoices,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_operations,false,visao_cp_atual,ambev_setores_censitarios_estrato_social_renda,Credit
+silver_power_bi_credito,Nãoacheionotebook,Curto Prazo,donus_kitchen_credit,donus_serving,false,cp_total,dataset_ambev_invoices,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_operations,false,cp_total,ambev_setores_censitarios_estrato_social_renda,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,clientes_inadimplentes,cp_total,Credit
+silver_power_bi_credito,Nãoacheionotebook,Curto Prazo,donus_kitchen_credit,donus_serving,false,tabela_thomas,dataset_ambev_invoices,Credit
+silver_power_bi_credito,Bifrost(KafkaBeesBankqueextraidoPromax),Curto Prazo,donus_kitchen_credit,donus_kitchen,false,elegibilidade,beesbank_ambev_invoice,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,carteira_ativa_historica_cp_contrato,cp_total,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,carteira_ativa_historica_cp,cp_total,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,carteira_ativa_historica_cp_diaria,cp_total,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,lgd_cp,carteira_ativa_historica_cp_contrato,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,rolagem_cp,visao_cp_atual,Credit
+silver_power_bi_credito,#N/A,Curto Prazo,donus_kitchen_credit,donus_kitchen_credit,false,saldo_cp,carteira_ativa_historica_cp_contrato,Credit
+silver_power_bi_credito,Nãoacheionotebook,CP - Visão Produtos,donus_kitchen_credit,donus_serving,false,kpi_produtos,dataset_ambev_invoices,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen,false,kpi_produtos,de_para_perfil_nge,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_credit,false,nps_credito,cp_total,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_cx,false,nps_credito,nps_cluster,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_cx,false,motivos_cr_credito,motivos_de_chamados,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_cx,false,cr_credito,contact_rate,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_credit,false,vw_churn_curtoprazo,carteira_ativa_historica_cp_contrato,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_credit,false,vw_churn_curtoprazo,vw_clientes_curtoprazo,Credit
+silver_power_bi_credito,#N/A,CP - Visão Produtos,donus_kitchen_credit,donus_kitchen_credit,false,vw_clientes_curtoprazo,visao_cp_atual,Credit
+silver_power_bi_credito,abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},Longo Prazo,donus_kitchen_credit,donus_serving,false,carteira_lp,fidc_carteira_lp_accrual,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_credit_kitchen_ds,false,carteira_lp,mesano_csv,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_relational,false,carteira_lp,fidc_carteira_lp_due_value,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_finance,false,carteira_lp,vw_balance_accounts_saldo_all,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,null,false,lp_over,null,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,null,false,lp_over_renegotiated,null,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,fidc_lp_rolagem,fidc_lp_parcela_with_reneg_date,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,fidc_lp_lgd,fidc_lp_lgd_first_month,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,fidc_lp_lgd,fidc_lp_lgd_first_month_aggregate,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,fidc_lp_lgd,fidc_lp_lgd_first_month_contract,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,fidc_lp_lgd,fidc_lp_lgd_first_month_contract_fixed,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,fidc_lp_recuperacao,carteira_lp,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_relational,false,dados_lp_contrato,fidc_carteira_lp_parcela,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},Longo Prazo,donus_kitchen_credit,donus_relational,false,dados_lp_contrato,fidc_carteira_lp,Credit
+silver_power_bi_credito,IrisDatashare:abfss://iguazudatalakeraw@gblstorageiguazuprod001.dfs.core.windows.net/irisraw/clientes/Clientes/,Longo Prazo,donus_kitchen_credit,iris_kitchen,false,dados_lp_contrato,ambev_clientes,Credit
+silver_power_bi_credito,IrisDatashareabfss://iguazudatalakeraw@gblstorageiguazuprod001.dfs.core.windows.net/irisraw/estruturadevendas/EstruturaVendas/,Longo Prazo,donus_kitchen_credit,iris_kitchen,false,dados_lp_contrato,ambev_estruturadevendas,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,ambev_credit_kitchen_ds,false,dados_lp_contrato,donus_lt_final_scores,Credit
+silver_power_bi_credito,GeradopelotimedeDataScientist,Longo Prazo,donus_kitchen_credit,ambev_credit_kitchen_ds,false,dados_lp_contrato,all_poc_risk_score_v2,Credit
+silver_power_bi_credito,"PostgreAMBEV,porémapartirde2023seráenviadoviadatashare",Longo Prazo,donus_kitchen_credit,iris_kitchen,false,dados_lp_contrato,postgres_cliente_mais,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_operations,false,dados_lp_contrato,ambev_setores_censitarios_estrato_social_renda,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,carteira_lp_out_22,manual_input_carteira_lp_out_22,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,carteira_lp_out_22,manual_input_carteira_lp_22_liq_nov_22,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,carteira_lp_out_22,dados_lp_contrato,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,lp_carteira_receita,carteira_lp,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_kitchen_credit,false,over_mob_aux,lp_over,Credit
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen_credit,donus_kitchen_data,false,lp_funil,TTV_Ambev,Credit
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen_credit,donus_kitchen_credit,false,lp_funil,projecao_ttv,Credit
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen_credit,donus_kitchen_credit,false,lp_funil,api_mova,Credit
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen_credit,donus_kitchen,false,lp_funil,mova_motor,Credit
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen_credit,donus_kitchen,false,lp_funil,mova_cotacao,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},Longo Prazo Visão Produto,donus_kitchen_credit,donus_relational,false,lp_funil,fidc_carteira_lp,Credit
+silver_power_bi_credito,TimeBeesBank,Longo Prazo Visão Produto,donus_kitchen_credit,donus_kitchen_data,false,lp_funil,match_ambev_edv,Credit
+silver_power_bi_credito,#N/A,Longo Prazo Visão Produto,donus_kitchen_credit,null,false,dados_lp_contrato,null,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},Longo Prazo Visão Produto,donus_kitchen_credit,donus_relational,false,lp_returning_customers,fidc_carteira_lp,Credit
+silver_power_bi_credito,#N/A,Risco Sacado,donus_kitchen_credit,donus_kitchen,false,risco_sacado,monkey_api_operations,Credit
+silver_power_bi_credito,#N/A,Risco Sacado,donus_kitchen_credit,donus_kitchen,false,risco_sacado_suppliers,monkey_api_sellers,Credit
+silver_power_bi_credito,APIPartnerBTG,CD,donus_kitchen_credit,donus_kitchen,false,cd,btg_carteira,Credit
+silver_power_bi_credito,BeesBankMongo-InformaseainvoicefoiparaavaliaçàodoFIDIC,CD,donus_kitchen_credit,donus_kitchen,false,cd,credit_creditslipreceipt,Credit
+silver_power_bi_credito,#N/A,Cobrança LP,donus_kitchen_credit,donus_kitchen_credit,false,base_cobranca_lp_dash,mailing_fidc,Credit
+silver_power_bi_credito,#N/A,Colchão de acordo,donus_kitchen_credit,donus_kitchen_credit,false,colchao_acordo_cp,visao_cp_atual,Credit
+silver_power_bi_credito,BeesBankMongo-InformaseainvoicefoiparaavaliaçàodoFIDIC,Colchão de acordo,donus_kitchen_credit,donus_kitchen,false,colchao_acordo_cp,credit_creditslipreceipt,Credit
+silver_power_bi_credito,APIPartnerBTG,Colchão de acordo,donus_kitchen_credit,donus_kitchen,false,colchao_acordo_cp,btg_carteira,Credit
+silver_power_bi_credito,#N/A,OKR Q4,donus_kitchen_credit,donus_kitchen_credit,false,okr_q2_2022,cp_total,Credit
+silver_power_bi_credito,#N/A,OKR Q4,donus_kitchen_credit,manual input,false,metasq2_cr_baddebt,null,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},OKR Q4,donus_kitchen_credit,donus_relational,false,risco_sacado,fidc_carteira_lp,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},OKR Q4,donus_kitchen_credit,donus_relational,false,risco_ambev_historico,fidc_carteira_lp,Credit
+silver_power_bi_credito,#N/A,OKR Q4,donus_kitchen_credit,donus_kitchen_credit,false,risco_ambev_historico,risco_all_poc_risk_score_document,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},OKR Q4,donus_kitchen_credit,donus_relational,false,lp_over,fidc_carteira_lp,Credit
+silver_power_bi_credito,#N/A,OKR Q4,donus_kitchen_credit,donus_kitchen_credit,false,lp_over,carteira_lp,Credit
+silver_power_bi_credito,#N/A,OKR Q4,donus_kitchen_credit,donus_kitchen_credit,false,lp_over_renegotiated,lp_over,Credit
+silver_power_bi_credito,#N/A,Longo Prazo,donus_kitchen_credit,donus_relational,false,carteira_lp,fidc_carteira_lp_parcela,Credit
+silver_power_bi_credito,Crédtobtg-abfss://iguazu-datalake-raw@gblstorageiguazuprod001.dfs.core.windows.net/donus_raw/btg/carteira_hourly/dt={today}/{hour_folder},Longo Prazo,donus_kitchen_credit,donus_relational,false,carteira_lp,fidc_carteira_lp,Credit
