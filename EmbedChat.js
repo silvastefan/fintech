@@ -48,7 +48,7 @@ const embedPopupHtmlCode = (chatflowid) => {
         return v.toString(16);
         });
     }
-    var guid = generateGUID();    
+    var guid = generateGUID();
     Chatbot.init({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -72,6 +72,7 @@ const App = () => {
 const embedFullpageHtmlCode = (chatflowid) => {
     return `<flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
+    import Chatbot from "https://storage.googleapis.com/ayvo-app/web.js"
     function generateGUID() {
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
         var r = Math.random() * 16 | 0,
@@ -80,7 +81,6 @@ const embedFullpageHtmlCode = (chatflowid) => {
         });
     }
     var guid = generateGUID();
-    import Chatbot from "https://storage.googleapis.com/ayvo-app/web.js"
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -99,9 +99,6 @@ const App = () => {
         <FullPageChat
             chatflowid="${chatflowid}"
             apiHost="${baseURL}"
-            chatflowConfig: {
-                "sessionId": guid
-            }            
         />
     );
 };`
@@ -146,10 +143,10 @@ const chatwindowConfig = (isReact = false) => {
                         backgroundColor: "#3B81F6",
                         textColor: "#ffffff",
                         showAvatar: true,
-                        avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                        avatarSrc: "https://storage.googleapis.com/ayvo-app/usericon.png",
                     },
                     textInput: {
-                        placeholder: "Digite sua pergunta",
+                        placeholder: "Type your question",
                         backgroundColor: "#ffffff",
                         textColor: "#303235",
                         sendButtonColor: "#3B81F6",
@@ -172,10 +169,10 @@ const chatwindowConfig = (isReact = false) => {
                     backgroundColor: "#3B81F6",
                     textColor: "#ffffff",
                     showAvatar: true,
-                    avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                    avatarSrc: "https://storage.googleapis.com/ayvo-app/usericon.png",
                 },
                 textInput: {
-                    placeholder: "Digite sua pergunta",
+                    placeholder: "Type your question",
                     backgroundColor: "#ffffff",
                     textColor: "#303235",
                     sendButtonColor: "#3B81F6",
@@ -193,7 +190,7 @@ const embedPopupHtmlCodeCustomization = (chatflowid) => {
         return v.toString(16);
         });
     }
-    var guid = generateGUID();    
+    var guid = generateGUID();
     Chatbot.init({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -216,9 +213,6 @@ const App = () => {
         <BubbleChat
             chatflowid="${chatflowid}"
             apiHost="${baseURL}"
-            chatflowConfig: {
-                "sessionId": guid
-            }            
             theme={{
                 ${buttonConfig(true)},
                 ${chatwindowConfig(true)}
@@ -239,7 +233,7 @@ const embedFullpageHtmlCodeCustomization = (chatflowid) => {
         return v.toString(16);
         });
     }
-    var guid = generateGUID();    
+    var guid = generateGUID();
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
